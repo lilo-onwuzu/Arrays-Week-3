@@ -7,18 +7,15 @@
 //   $("." + blank).text(userInput);
 // });
 
-var blanks = ["first", "second", "third", "fourth", "fifth"];
+//var blanks = ["first", "second", "third", "fourth", "fifth"];
 
 $(document).ready(function(){
   $("#quiz").submit(function(event){
-    event.preventDefault();
-    
-    var subBlanks = [blanks[1], blanks[0]];
-    subBlanks.push(blanks[2]);
+    event.preventDefault(); 
+    var subBlanks = ["first", "second", "third", "fourth", "fifth"];
     subBlanks.forEach(function(subBlank){
           var userInput = $("input#" + subBlank).val();
           $("." + subBlank).text(userInput);
-    });
-    
+    });   
   });
 });
