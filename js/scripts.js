@@ -12,7 +12,7 @@
 $(document).ready(function(){
   $("#quiz").submit(function(event){
     event.preventDefault(); 
-    var subBlanks = ["fourth", "fifth"];
+    var subBlanks = ["first", "second", "third", "fourth", "fifth"];
     subBlanks.forEach(function(subBlank){
           var userInput = $("input#" + subBlank).val();
           $("." + subBlank).text("alert");
