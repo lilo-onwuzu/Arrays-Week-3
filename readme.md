@@ -9,7 +9,7 @@
 
 #### _Description_
 	This code allows the user to list their favorite things in order.
-  It show interactivity (show/hide/toggle operations) of a html page using Javascript
+  	It show interactivity (show/hide/toggle operations) of a html page using Javascript
 
 #### _Setup/Installation Requirements_
 	Clone this repository 
