@@ -15,7 +15,7 @@ $(document).ready(function(){
     var subBlanks = ["fourth", "fifth"];
     subBlanks.forEach(function(subBlank){
           var userInput = $("input#" + subBlank).val();
-          $("." + subBlank).text(userInput);
+          $("." + subBlank).text("alert");
     });   
   });
 });
